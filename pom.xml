@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.jvnet.hudson.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.323</version>
+        <version>1.377</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -11,8 +11,8 @@
     <artifactId>jsgames</artifactId>
     <version>0.2-SNAPSHOT</version>
     <name>JSGames Plugin</name>
-    <description>Play some JavaScript games from the comfort of your Hudson instance.</description>
-    <url>http://wiki.hudson-ci.org/display/HUDSON/JSGames+Plugin</url>
+    <description>Play some JavaScript games from the comfort of your Jenkins instance.</description>
+    <url>http://wiki.jenkins-ci.org/display/JENKINS/JSGames+Plugin</url>
     <packaging>hpi</packaging>
 
     <developers>
@@ -104,4 +104,10 @@
             </plugin>
         </plugins>
     </reporting>
+    
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/jsgames-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/jsgames-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/jsgames-plugin</url>
+    </scm>
 </project>
