@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This class allows JS Games option to appear on Hudson dashboard menu.
+ * This class allows JS Games option to appear on Jenkins dashboard menu.
  * @author cliffano
  */
 @Extension

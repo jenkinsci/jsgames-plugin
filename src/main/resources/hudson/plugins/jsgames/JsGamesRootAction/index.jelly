@@ -10,7 +10,7 @@
 
 <div id="jsgames_menu">
     <j:forEach var="game" items="${it.games}">
-        <div class="jsgames_menuitem" onclick="org_hudsonci_jsgames.selectmenuitem('${game.id}');">
+        <div class="jsgames_menuitem" onclick="org_jenkinsci_jsgames.selectmenuitem('${game.id}');">
             <img class="jsgames_icon" src="${rootURL}/plugin/jsgames/${game.id}/icon.png" height="36" width="36"/><br/>
             <span class="jsgames_title" style="font-weight: bold;">${game.title}</span>
         </div>
@@ -25,8 +25,8 @@
         </div>
     </j:forEach>
     <script type="text/javascript">
-        org_hudsonci_jsgames.resetmenuitems();
-        org_hudsonci_jsgames.selectmenuitem('${it.games.get(0).id}');
+        org_jenkinsci_jsgames.resetmenuitems();
+        org_jenkinsci_jsgames.selectmenuitem('${it.games.get(0).id}');
     </script>
 </div>
         </l:main-panel>
